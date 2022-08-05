@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Poppins:wght@400;500;600;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        
+        justify-content: center;
+        background: linear-gradient(68deg, rgba(208, 255, 0, 0.589), rgb(0, 247, 255)) no-repeat;
+    }
+
+    h1{
+        text-align: center;
+    }
+    .container{
+        background: rgb(0, 140, 255);
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        border-radius:  10px;
+        box-sizing: border-box;
+        border: solid .5px gray;
+        box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.664);
+    }
+
+    #inome, #iemail, #isenha, #isenhaconf{
+        background-color: rgba(255, 255, 255, 0.171);
+        border: solid .3px black;
+        border-radius: 8px;
+        padding: 2px;
+    }
+
+    #btn{
+        padding: 2px;
+        margin: 3px;
+        border: solid .2px;
+        border-radius: 15px;
+        background-color: rgb(43, 152, 255);
+    }
+
+    #btn:hover{
+        background-color: rgb(31, 106, 177);
+    }
+
+    .box{
+        width: 300px;
+        border: solid .5px gray;
+        box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.5);
+    }
+
+    .pass{
+        border: solid .5px gray;
+        box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.5);
+        width: 150px;
+    }

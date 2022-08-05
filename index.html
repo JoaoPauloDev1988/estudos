@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="container">
+        <h1>Cadastro de usuário</h1>
+        <form action="">
+            <div class="part">
+                <label for="inome">Nome</label><br>
+                <input class="box" type="text" name="nome" id="inome" placeholder="Digite seu nome..." minlength="5">
+            </div>
+
+            <div class="part">
+                <label for="iemail">E-mail</label><br>
+                <input class="box" type="email" name="email" id="iemail" placeholder="Digite seu e-mail...">
+            </div>
+
+            <div class="part">
+                <label for="isenha">Senha</label><br>
+                <input class="pass" type="password" name="senha" id="isenha" placeholder="Digite uma senha..." minlength="8" maxlength="16" >
+            </div>
+
+            <div class="part">
+                <label for="isenhaconf">Confirmação de senha</label><br>
+                <input class="pass" type="password" name="senhaconf" id="isenhaconf" placeholder="Confirme a senha..." minlength="8" maxlength="16">
+            </div>
+
+            <button type="submit" id="btn" onclick="validate()">Enviar</button>
+             
+        </form>
+        
+        </div>  
+</body>
+</html>
